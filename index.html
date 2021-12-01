@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -43,7 +43,7 @@
 			</div>
 		</header>
 		<div class="contenedor portada">
-			<div class="text-section"> 
+			<div class="text-section "> 
 				<h1 id="presentacion">el sonido que te pondra a volar</h1>
 				<p>Con mas de 6 años de experiencia a nivel estadal <br>
 					Contamos con los mejores equipamientos profesionales para tus eventos 
@@ -88,33 +88,42 @@
 		<div class="main-paquetes">
 			<div class="paquetes"> 
 				<div class="paquetes-imagenes"><img src="imagenes/IMG_20210724_210507.jpg" alt=""></div>
-				<h3>Paquete 1</h3>
+			<div class="texto">
+					<h3>Paquete 1</h3>
 				<p>
 					Incluye<br>
 					Trasporte<br>
 					1 Dj<br>
 					2 Monitores con sus parales marca Danom <br>
 					1 Microfono<br>
-					PRECIO 35$
-				
 				</p>
+			</div>
+				<div class="precios"> 
+					<h5>PRECIO 35$</h5>
+				</div>
 			</div>
 			<div class="paquetes"> 
 				<div class="paquetes-imagenes"><img src="imagenes/IMG_20210724_210507.jpg" alt=""></div>
-				<h3>Paquete 2</h3>
-			<p>
-				Incluye<br>
+				<div class="texto">
+					<h3>Paquete 2</h3>
+				<p>
+					Incluye<br>
 					Trasporte<br>
 					1 Dj<br>
 					2 Monitores con sus parales marca Danom <br>
 					1 Mini estructura con 2 luces de colores trilogy
-					1 Microfono<br>
-					PRECIO 40$
-			</p>
+					1 Microfono<br> 
+				</p>
+			</div>
+				<div class="precios"> 
+					<h5>PRECIO 40$</h5>
+				</div>
+		
 			</div>
 			<div class="paquetes"> 
 				<div class="paquetes-imagenes"><img src="imagenes/IMG_20210724_210507.jpg" alt=""></div>
-				<h3>Paquete 3</h3>
+				<div class="texto">
+					<h3>Paquete 3</h3>
 				<p>
 					Trasporte<br>
 					1 Dj<br>
@@ -122,12 +131,17 @@
 					1 Mini estructura con 2 luces de colores trilogy
 					1 Bajo 18 pulgadas
 					1 Microfono<br>
-					PRECIO 50$
 				</p>
+				</div>
+					<div class="precios"> 
+					<h5>PRECIO 50$</h5>
+					</div>
+			
 			</div>
 			<div class="paquetes"> 
 				<div class="paquetes-imagenes"><img src="imagenes/IMG_20210724_210507.jpg" alt=""></div>
-				<h3>Paquete 4</h3>
+				<div class="texto">
+					<h3>Paquete 4</h3>
 				<p>
 					Trasporte<br>
 					2 Dj<br>
@@ -135,11 +149,16 @@
 					1 estructura con 3 luces de colores trilogy y 3 luces strobo <br>
 					2 Bajos 18 pulgadas<br>
 					1 Microfono<br>
-					PRECIO 60$
+				
 				</p>
+				</div>
+				<div class="precios"> 
+					<h5>PRECIO 60$</h5>
+				</div>
 			</div>
-				</p>
-			</div>
+				
+			
+			
 			</div>
 		</div>
 	</section>
@@ -179,10 +198,10 @@
 				<div class="formulario">
 					<h3>Escribenos</h3>
 					<form class="campo-formulario" action="" id="contactForm">
-						<input  class="margen-campos" type="text" placeholder="Nombre Completo">
-						<input  class="margen-campos" type="email" placeholder="Correo Electronico">
-						<input  class="margen-campos" type="tel" placeholder="Numero telefonico">
-						<textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje..."></textarea>
+						<input  class="margen-campos" type="text" id="name" placeholder="Nombre Completo" required>
+						<input  class="margen-campos" type="email" id="email" placeholder="Correo Electronico" required>
+						<input  class="margen-campos" type="tel" id="tlf" placeholder="Numero telefonico" required>
+						<textarea name="" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje..." required></textarea>
 						<button type="submit">enviar</button>
 					</form>
 				</div>
@@ -198,8 +217,8 @@
 					</div>
 					<div class="nuestros-numeros">
 						<h3>Nuestros Numeros</h3>
-						<p><i class="fas fa-phone-square-alt"></i>0416.846.6568</p>
-						<p><i class="fas fa-phone-square-alt"></i>0416.846.6568</p>
+						<div class="numeros"><p><i class="fas fa-phone-square-alt"></i>0416.846.6568</p></div>
+						<div class="numeros"><p><i class="fas fa-phone-square-alt"></i>0416.846.6568</p></div>
 					</div>
 				</div>
 			</div>
@@ -232,7 +251,7 @@
 	<!--final del footer-->
 
 
-	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/slidereventos.js"></script>
 	<script src="js/formulario.js"></script>
