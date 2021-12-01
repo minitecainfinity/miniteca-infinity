@@ -512,7 +512,7 @@ header{
 @media(max-width: 800px){
     .contenedor{
         flex-direction: column-reverse;
-        margin-top: 250px;
+        margin-top: 270px;
         align-items: center;
     }
     .boton-contactanos{
@@ -533,7 +533,7 @@ header{
         display:  inline-block;
     }
     .paquetes{
-        margin: 0 20%;
+        margin: 0 10%;
         margin-bottom: 50px;
         height: 500px;
         width: 300px;
