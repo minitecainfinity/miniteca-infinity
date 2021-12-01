@@ -454,8 +454,10 @@ header{
             box-shadow: 5px 5px 20px rgb(0,0,128);
             margin: 10px;
             }
-            .redes-sociales{
+            .iconos-sociales{
                 width: 50%;
-                margin-right: 100px;
+                margin: 20px auto;
+                margin-left: 10px;
             }
+          
 }
