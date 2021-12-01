@@ -271,6 +271,12 @@ header{
                  width: 50%;
                 
              }
+             .formulario form button , .formulario form textarea , .formulario form input{
+                border:1px solid #c9e6ff; 
+             }
+             .formulario form button{
+                background-color: #c9e6ff;
+             }
         .redes-sociales{
             width: 50%;
         }
