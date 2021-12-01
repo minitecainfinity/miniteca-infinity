@@ -443,6 +443,7 @@ header{
         display: block;
         position: absolute;
         font-size: 2rem;
+        z-index: 500;
     }
     .portada{
         height: 80vh;
@@ -527,5 +528,21 @@ header{
 
     .imagen {
         width: 370px;
+    }
+    .main-paquetes{
+        display:  inline-block;
+    }
+    .paquetes{
+        margin: 0 20%;
+        margin-bottom: 50px;
+        height: 500px;
+        width: 500px;
+    }
+    .paquetes p{
+        font-size: 15px;
+    }
+    .precios{
+        max-width: 250px;
+        margin: 0 auto;
     }
 }
