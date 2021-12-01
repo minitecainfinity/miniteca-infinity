@@ -13,7 +13,7 @@
 html{
 	scroll-behavior: smooth;
 }
-@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 a{
     text-decoration: none;
 	color: white;
@@ -37,5 +37,5 @@ h2{
 	color: black;
 }
 body{
-	font-family: 'Comforter Brush', cursive;
+	font-family: 'Roboto', sans-serif;
 }
