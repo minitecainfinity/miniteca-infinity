@@ -271,7 +271,7 @@ header{
         }
         .iconos-sociales{
             width: 50%;
-            margin: 20px auto
+            margin: 20px auto;
         }
         .iconos-sociales ul{
             display: flex;
@@ -436,11 +436,26 @@ header{
         margin: 0 auto;
     }
     .main-slider{
-             max-width: 90%;
-                height: 200px;
-                display: flex;
-                justify-content: space-between;
-                margin: 1% auto;
-                overflow: hidden;
-                position: relative;
+        max-width: 90%;
+           height: 300px;
+           display: flex;
+           justify-content: space-between;
+           margin: 1% auto;
+           overflow: hidden;
+           position: relative;
+        }
+        .boton-slider{
+            width: 70px;
+            height: 70px;
+        }
+        .paquetes{
+            width: 300px;
+            height: 260px;
+            box-shadow: 5px 5px 20px rgb(0,0,128);
+            margin: 10px;
+            }
+            .redes-sociales{
+                width: 50%;
+                margin-right: 100px;
+            }
 }
