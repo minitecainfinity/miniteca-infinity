@@ -1,0 +1,41 @@
+:root{
+	--color-gris:#EFEFEF;
+	--color-azul:#200769;
+	--color-amarillo:#F1B327;
+	--color-blanco:white;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	max-width: 1440px;
+}
+html{
+	scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+a{
+    text-decoration: none;
+	color: white;
+}
+p{
+	line-height: 1.4;
+}
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+ul{
+	list-style: none;
+}
+h3{
+	text-align: center;
+}
+
+h2{
+	color: black;
+}
+body{
+	font-family: 'Comforter Brush', cursive;
+}

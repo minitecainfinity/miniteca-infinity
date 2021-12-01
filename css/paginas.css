@@ -1,0 +1,40 @@
+.fondo-paginas{
+    background-image: url(../imagenes/estrellas.jpg);
+}
+.titulopaginas{
+    margin-top: 50px;
+}
+.titulopaginas h1{
+    width: 130px;
+    height: 80px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+}
+.seccion1er{
+	min-height: calc(100vh - 400px);
+	position: relative;
+}
+.galeria{
+	height: auto;
+	width: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.galeria-fotos{
+	width: 300px;
+	height: auto;
+	padding: 5px;
+}
+.galeria-fotos img{
+	width: 100%;
+	height:auto;
+	box-shadow: 5px 5px 10px rgb(0,0,0,.5);
+	padding: 2px;
+}
+.galeria-fotos:hover{
+	transform: scale(1.3);
+	transition: 2s ease;
+	box-shadow:  5px 5px 5px rgba(0,0,0,0.5);
+}
