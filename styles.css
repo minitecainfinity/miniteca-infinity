@@ -492,7 +492,7 @@ header{
 @media(max-width: 800px){
     .contenedor{
         flex-direction: column-reverse;
-        margin-top: 180px;
+        margin-top: 250px;
         align-items: center;
     }
     .boton-contactanos{
@@ -505,8 +505,8 @@ header{
         z-index: 200;
         text-align: center;
     }
-    
-    .imagen img{
-        width: 100%;
+
+    .imagen {
+        width: 370px;
     }
 }
