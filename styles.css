@@ -112,16 +112,14 @@ header{
             transform: scale(1.1);
             transition: 1s ease;
         }
-        .encabezado-teofrecemos{
-            width: 450px;
-            height: 50px;
-            margin: 2% auto;
-            margin-bottom: 60px;
-            text-transform: uppercase;
-            color:var(--color-azul);
-            font-size: 20px;
-            padding-top: 50px;
+        .encabezado-teofrecemos h2{
             text-align: center;
+             text-transform: uppercase;
+             padding: 3rem;
+             margin: 2% auto;
+             margin-bottom: 60px;
+             text-transform: uppercase;
+             font-size: 30px;
         }
         .contenedor-te-ofrecemos{
             width: 90%;
@@ -158,14 +156,14 @@ header{
             color:var(--color-amarillo);
         }
 
-        .encabezado-paquetes{
-            width: 450px;
-            height: 50px;
-            margin: 2% auto;
-            margin-bottom: 60px;
-            text-transform: uppercase;
-            font-size: 20px;
+        .encabezado-paquetes h2 {
             text-align: center;
+             text-transform: uppercase;
+             padding: 3rem;
+             margin: 2% auto;
+             margin-bottom: 60px;
+             text-transform: uppercase;
+             font-size: 30px;
             }
             
             .main-paquetes{
@@ -217,14 +215,14 @@ header{
               margin-right: 50px;
               margin: 0 auto;
              }
-             .eventos-titulo{
-                width: 450px;
-                height: 50px;
+             .eventos-titulo h2{
+                text-align: center;
+                text-transform: uppercase;
+                padding: 3rem;
                 margin: 2% auto;
                 margin-bottom: 60px;
                 text-transform: uppercase;
-                font-size: 20px;
-                text-align: center;
+                font-size: 25px;
              }
              .main-slider{
                 max-width: 90%;
