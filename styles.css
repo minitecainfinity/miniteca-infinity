@@ -429,4 +429,10 @@ header{
     .main-paquetes p{
         font-size: 10px;
     }
+    .izquierda-lista{
+        display: none;
+    }
+    .nombre-logo{
+        margin: 0 auto;
+    }
 }
