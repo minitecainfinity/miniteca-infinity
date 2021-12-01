@@ -435,4 +435,12 @@ header{
     .nombre-logo{
         margin: 0 auto;
     }
+    .main-slider{
+             max-width: 90%;
+                height: 200px;
+                display: flex;
+                justify-content: space-between;
+                margin: 1% auto;
+                overflow: hidden;
+                position: relative;
 }
