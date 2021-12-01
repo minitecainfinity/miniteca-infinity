@@ -469,6 +469,13 @@ header{
             }
             .redes-sociales{
                 width: 40%;
-
+            }
+            .footer-nombre{
+                width:100%; 
+                height:auto;
+                text-align: center;
+                background-color: #180B3F;
+                color: white;
+                margin-bottom: 10px;
             }
 }
