@@ -492,16 +492,21 @@ header{
 @media(max-width: 800px){
     .contenedor{
         flex-direction: column-reverse;
-        margin-top: 200px;
-    
+        margin-top: 180px;
         align-items: center;
     }
     .boton-contactanos{
         margin-top: 40px;
+        margin: 40px auto;
     }
     .text-section{
-        margin-top: -30px;
+        max-width: 90vw;
+        margin-top: 0px;
         z-index: 200;
-
+        text-align: center;
+    }
+    
+    .imagen img{
+        width: 100%;
     }
 }
