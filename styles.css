@@ -201,6 +201,7 @@ header{
                  max-width: 250px;
                  padding: 10px;
                  border-radius: 5px;
+                 margin: 0 auto;
              }
              .paquetes .texto{
                  height: 200px;
@@ -303,8 +304,9 @@ header{
             margin-right:10px;
         }
         .nuestros-numeros h3 {
-            line-height: 5;
+            line-height: 3;
         }
+        
         .numeros{
             background-color: #F1B327;
             max-width: 300px;
@@ -560,5 +562,8 @@ header{
     }
     .encabezado-paquetes  {
         margin-top: 10px;
+        }
+        .nuestros-numeros h3 {
+           font-size: 18px;
         }
 }
