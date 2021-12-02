@@ -12,9 +12,11 @@ function next() {
    }
     imagenesContainer.style.transform = `translate(-${x}px)`
     
-   
-
   }
+
+  setInterval(function(){
+     next();
+  },3000 )
 
 
 
