@@ -121,15 +121,16 @@ header{
         }
         .contenedor-te-ofrecemos{
             width: 90%;
-            height: 400px;
+            height: 100px;
             display: flex;
             justify-content: space-between;
             margin: 1% auto;
+
         }
         .te-ofrecemos{
             width: 20%;
             height: 50%;
-            margin-top: 3rem;
+         
         }
         
         .te-ofrecemos:hover{
@@ -159,10 +160,13 @@ header{
              text-transform: uppercase;
              padding: 3rem;
              margin: 2% auto;
-             margin-bottom: 60px;
+             margin-bottom: 40px;
              text-transform: uppercase;
              font-size: 30px;
             }
+            .encabezado-paquetes  {
+                margin-top: 200px;
+                }
             
             .main-paquetes{
                 width: 90%;
@@ -554,4 +558,7 @@ header{
     .eventos-titulo{
         margin-top: 100px;
     }
+    .encabezado-paquetes  {
+        margin-top: 10px;
+        }
 }
