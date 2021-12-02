@@ -417,7 +417,7 @@ header{
             .prueba{
                 display: none;
                 height: 85vh;
-                background-color: red;
+                background-color: slategray;
                 width: 100vw;
                 margin-top: 27px;
             }
@@ -551,5 +551,7 @@ header{
         max-width: 250px;
         margin: 0 auto;
     }
-    
+    .eventos-titulo{
+        margin-top: 100px;
+    }
 }
