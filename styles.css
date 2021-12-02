@@ -541,7 +541,7 @@ header{
     .paquetes{
         margin: 0 13%;
         margin-bottom: 50px;
-        height: 500px;
+        height: 400px;
         width: 300px;
     }
     .paquetes p{
@@ -551,4 +551,5 @@ header{
         max-width: 250px;
         margin: 0 auto;
     }
+    
 }
